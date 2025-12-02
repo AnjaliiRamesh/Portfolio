@@ -6,8 +6,8 @@ const API_BASE = "http://localhost:5000/api"; // your backend URL
 export const getGithubProfile = (username) =>
   axios.get(`${API_BASE}/github/profile/${username}`).then(res => res.data);
 
-export const getGithubContributions = (username) =>
-  axios.get(`${API_BASE}/github/contributions/${username}`).then(res => res.data);
+// export const getGithubContributions = (username) =>
+//   axios.get(`${API_BASE}/github/contributions/${username}`).then(res => res.data);
 
 // LeetCode
 export const getLeetCodeStats = (username) =>
@@ -15,3 +15,10 @@ export const getLeetCodeStats = (username) =>
 
 export const getLeetCodeHeatmap = (username) =>
   axios.get(`${API_BASE}/leetcode/heatmap/${username}`).then(res => res.data);
+
+
+export async function getGithubContributions(username) {
+  axios.get(`${API_BASE}/github/contributions/${username}`).then(res => res.data);
+  const res = await fetch(`http://localhost:5000/contributions/${username}`);
+  return res.json();
+}

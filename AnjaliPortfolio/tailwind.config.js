@@ -12,7 +12,16 @@ export default {
           '33%': { transform: 'scale(1.2)' },
           '66%': { transform: 'scale(0.8)' },
           '100%': { transform: 'scale(1)' },
-        },
+        colors: {
+        github: {
+          0: "#ebedf0",
+          1: "#9be9a8",
+          2: "#40c463",
+          3: "#30a14e",
+          4: "#216e39",
+        }
+      }
+      },
       },
       animation: {
         blob: 'blob 10s infinite',

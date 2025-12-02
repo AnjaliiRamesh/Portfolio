@@ -2,9 +2,11 @@ import express from "express";
 import axios from "axios";
 import cors from "cors";
 import fetch from "node-fetch";
-import dotenv from "dotenv";
 
-dotenv.config();
+import dotenv from "dotenv";   // <-- ADD THIS
+dotenv.config();               // <-- AND THIS
+
+
 
 const app = express();
 app.use(cors());

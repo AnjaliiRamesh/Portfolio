@@ -1,0 +1,7 @@
+export const GITHUB_COLORS = {
+  0: "#ebedf0",
+  1: "#9be9a8",
+  2: "#40c463",
+  3: "#30a14e",
+  4: "#216e39",
+};
