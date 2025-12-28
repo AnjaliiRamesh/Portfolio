@@ -117,6 +117,7 @@ export default function GithubHeatmap({ username }) {
   const handleMouseLeave = () => setTooltip({ visible: false, x: 0, y: 0, data: null });
 
   return (
+   
     <div className="p-6 rounded-xl shadow-md bg-white/3 dark:bg-[#0c0d10]/50 backdrop-blur-md border border-white/8 mt-8 relative">
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-2xl font-semibold text-gray-400">GitHub Contributions</h2>
@@ -181,5 +182,6 @@ export default function GithubHeatmap({ username }) {
       {/* Animated tooltip */}
       <HeatmapTooltip visible={tooltip.visible} x={tooltip.x} y={tooltip.y} data={tooltip.data} />
     </div>
+    
   );
 }

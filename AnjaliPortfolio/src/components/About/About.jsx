@@ -2,6 +2,8 @@ import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/education_logo/profile.jpg';
+import { FaDownload } from "react-icons/fa";
+
 
 const About = () => {
   return (
@@ -26,8 +28,8 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'Fullstack Developer',
-                'App Developer',
-                'UI/UX Designer',
+                'Web Developer',
+                'Tech Enthusiast',
                 'Coder',
               ]}
               speed={100}
@@ -52,12 +54,13 @@ const About = () => {
             href="https://drive.google.com/file/d/1j6xmVUppn8PkFz5wADlURM-FMNfJyucZ/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
+            className="w-fit text-white py-3 px-6 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105 flex items-center gap-2"
             style={{
               background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-              boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+              // boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
             }}
           >
+            <FaDownload className="group-hover:animate-bounce" />
             DOWNLOAD CV
           </a>
           

@@ -8,6 +8,10 @@ const BlurBlob = ({ position, size }) => {
   const { width, height } = size 
 
   return (
+    <section
+      id="about"
+      className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
+    >
     <div
       className="absolute"
       style={{
@@ -22,6 +26,7 @@ const BlurBlob = ({ position, size }) => {
         className="w-full h-full bg-purple-500 rounded-full opacity-20 blur-3xl animate-blob"
       ></div>
     </div>
+    </section>
   );
 };
 

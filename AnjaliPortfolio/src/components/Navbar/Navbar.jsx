@@ -31,9 +31,9 @@ const Navbar = () => {
   const menuItems = [
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
-    { id: "experience", label: "Experience" },
+    { id: "codingProfile", label: "Codings" },
     { id: "work", label: "Projects" },
-    { id: "education", label: "Education" },
+    { id: "experience", label: "Experience" },
     // { id: "codingprofile", label: "coding" },
   ];
 

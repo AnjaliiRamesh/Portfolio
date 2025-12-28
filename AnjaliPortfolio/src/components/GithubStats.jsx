@@ -13,7 +13,11 @@ const GithubStats = ({ username }) => {
   if (!profile) return <p>Loading GitHub Profile...</p>;
 
   return (
-    // <div className="p-6 rounded-xl shadow-md bg-white/10 dark:bg-[#1e1e1e]/20 backdrop-blur-md border border-white dark:border-gray-700/30 mt-8 transition-colors relative overflow-hidden">
+    
+    <section
+      id="codingProfile"
+    >
+   
       <div className="p-6 rounded-xl shadow-md bg-white/3 dark:bg-[#0c0d10]/50 backdrop-blur-md border border-white/8 mt-8 relative">
       {/* Background Grid */}
       {/* <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none z-0"></div> */}
@@ -44,6 +48,7 @@ const GithubStats = ({ username }) => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 
