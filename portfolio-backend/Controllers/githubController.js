@@ -111,9 +111,10 @@ exports.getGithubContributions = async (req, res) => {
 
     // ------------------ FINAL RESPONSE ------------------
     res.json({
-      weeks: formatted,
-      streaks,
-    });
+  contributions: flatDays,   // ✅ frontend needs this
+  weeks: formatted,
+  streaks,
+});
   } catch (err) {
     console.log(err);
     res.status(500).json({ error: "Failed to fetch contributions" });
