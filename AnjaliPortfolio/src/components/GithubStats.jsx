@@ -16,10 +16,7 @@ const GithubStats = ({ username }) => {
     
     <section
       id="codingProfile"
-<<<<<<< HEAD
       className="bg-skills-gradient clip-path-custom"
-=======
->>>>>>> b3ca89b70ea9fb78d76746331ddc3d90dd5f3173
     >
    
       <div className="p-6 rounded-xl shadow-md bg-white/3 dark:bg-[#0c0d10]/50 backdrop-blur-md border border-white/8 mt-8 relative">
