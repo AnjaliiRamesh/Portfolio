@@ -33,7 +33,18 @@ const App = () => {
         <Navbar />
         <About />
         <Skills />
+<<<<<<< HEAD
       
+=======
+        {/* <CodingProfiles />  */}
+         {/* <div className="min-h-screen p-6 bg-gray-50 dark:bg-[#121212] transition-colors">
+      <div className="max-w-4xl mx-auto">
+        <GithubStats username="AnjaliiRamesh" />
+        <GithubHeatmap username="AnjaliiRamesh" />
+        <Leetstat username="anjaliramesh14012005" />
+      </div>
+    </div> */}
+>>>>>>> b3ca89b70ea9fb78d76746331ddc3d90dd5f3173
 
     {/* Coding Profiles Section */}
 <section className="relative min-h-screen p-6">

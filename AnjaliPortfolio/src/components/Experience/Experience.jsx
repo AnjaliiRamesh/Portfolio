@@ -375,15 +375,24 @@ const Experience = () => {
 
     const experiences = [
         {
+<<<<<<< HEAD
             title: "Frontend Developer - CodSoft",
             images: "codsoft.png",
+=======
+            title: "Frontend Developer - Prodigy Infotech",
+            images: "prodigy.png",
+>>>>>>> b3ca89b70ea9fb78d76746331ddc3d90dd5f3173
             date: "Jan 2024 - Feb 2024",
             description: "Built scalable UI with React & Tailwind, integrated REST APIs, and optimized performance.",
             learned: "Learned React, API integration, and UI performance optimization with Tailwind CSS."
         },
         {
             title: "Campus Ambassador - International Model United Nations Association",
+<<<<<<< HEAD
             images: "iiitAllhabad.png",
+=======
+            images: "imunalogo.jpg",
+>>>>>>> b3ca89b70ea9fb78d76746331ddc3d90dd5f3173
             date: "Jun 2024 - Aug 2024",
             description: "Promoted IMUNA conferences, engaged students, and strengthened leadership and event management skills.",
             learned: "Improved Leadership, Communication, and Event Management skills."
@@ -441,6 +450,7 @@ const Experience = () => {
     return (
         <section
       id="experience"
+<<<<<<< HEAD
       className="bg-skills-gradient clip-path-custom"
       
     >
@@ -455,6 +465,21 @@ const Experience = () => {
           Explore my professional experiences and achievements that have shaped my career path
         </p>
         </div>
+=======
+      
+    >
+        <div className="py-24 text-white bg-gradient-to-b from-gray-900 to-gray-800">
+            <div className="w-full max-w-6xl mx-auto px-4">
+                <div className="text-center mb-16">
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white orbitron">
+                        Professional <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-600">Journey</span>
+                    </h2>
+                    <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
+                        Explore my professional experiences and achievements that have shaped my career path
+                    </p>
+                    <div className="w-32 h-1 bg-gradient-to-r from-blue-400 to-blue-600 mx-auto mt-6"></div>
+                </div>
+>>>>>>> b3ca89b70ea9fb78d76746331ddc3d90dd5f3173
 
                 {/* Tab Navigation */}
                 <div className="flex justify-center mb-12">
@@ -463,7 +488,11 @@ const Experience = () => {
                             onClick={() => setActiveTab("experience")}
                             className={`flex items-center gap-2 px-6 py-3 rounded-full transition-all ${
                                 activeTab === "experience"
+<<<<<<< HEAD
                                     ? "bg-[#8245ec] text-white shadow-lg"
+=======
+                                    ? "bg-blue-600 text-white shadow-lg"
+>>>>>>> b3ca89b70ea9fb78d76746331ddc3d90dd5f3173
                                     : "text-gray-300 hover:text-white"
                             }`}
                         >
@@ -474,7 +503,11 @@ const Experience = () => {
                             onClick={() => setActiveTab("certifications")}
                             className={`flex items-center gap-2 px-6 py-3 rounded-full transition-all ${
                                 activeTab === "certifications"
+<<<<<<< HEAD
                                     ? "bg-[#8245ec] text-white shadow-lg"
+=======
+                                    ? "bg-blue-600 text-white shadow-lg"
+>>>>>>> b3ca89b70ea9fb78d76746331ddc3d90dd5f3173
                                     : "text-gray-300 hover:text-white"
                             }`}
                         >
@@ -490,7 +523,11 @@ const Experience = () => {
                         {experiences.map((exp, index) => (
                             <div
                                 key={index}
+<<<<<<< HEAD
                                 className="bg-gray-800 bg-opacity-50 backdrop-blur-lg border border-gray-700 rounded-2xl shadow-xl p-6 transition-all duration-300 hover:transform hover:translate-y-[-5px] hover:shadow-purple-900/20 hover:shadow-2xl"
+=======
+                                className="bg-gray-800 bg-opacity-50 backdrop-blur-lg border border-gray-700 rounded-2xl shadow-xl p-6 transition-all duration-300 hover:transform hover:translate-y-[-5px] hover:shadow-blue-900/20 hover:shadow-2xl"
+>>>>>>> b3ca89b70ea9fb78d76746331ddc3d90dd5f3173
                             >
                                 <div className="flex items-start gap-5">
                                     <div className="flex-shrink-0 p-2 bg-gray-700 rounded-xl shadow-inner">
@@ -504,7 +541,11 @@ const Experience = () => {
                                         <h3 className="text-xl font-bold text-white">
                                             {exp.title}
                                         </h3>
+<<<<<<< HEAD
                                         <div className="mt-1 px-3 py-1 bg-purple-900/30 rounded-full inline-block text-purple-300 text-sm font-medium">
+=======
+                                        <div className="mt-1 px-3 py-1 bg-blue-900/30 rounded-full inline-block text-blue-300 text-sm font-medium">
+>>>>>>> b3ca89b70ea9fb78d76746331ddc3d90dd5f3173
                                             {exp.date}
                                         </div>
                                         <p className="text-md text-gray-300 mt-3 leading-relaxed">
@@ -546,10 +587,17 @@ const Experience = () => {
                                                     alt="Issuer Logo" 
                                                     className="w-10 h-10 object-contain bg-white p-1 rounded-md"
                                                 />
+<<<<<<< HEAD
                                                 <span className="text-lg text-purple-300">{cert.issued_by}</span>
                                             </div>
                                             <h3 className="text-2xl font-bold text-white mb-2">{cert.title}</h3>
                                             <div className="inline-block px-3 py-1 bg-purple-900/30 rounded-full text-purple-300 text-sm font-medium mb-4">
+=======
+                                                <span className="text-lg text-blue-300">{cert.issued_by}</span>
+                                            </div>
+                                            <h3 className="text-2xl font-bold text-white mb-2">{cert.title}</h3>
+                                            <div className="inline-block px-3 py-1 bg-blue-900/30 rounded-full text-blue-300 text-sm font-medium mb-4">
+>>>>>>> b3ca89b70ea9fb78d76746331ddc3d90dd5f3173
                                                 {cert.date}
                                             </div>
                                             <p className="text-gray-300 leading-relaxed">{cert.desc}</p>

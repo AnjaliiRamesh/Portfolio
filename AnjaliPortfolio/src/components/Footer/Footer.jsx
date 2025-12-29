@@ -21,9 +21,15 @@ const Footer = () => {
           {[
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
+<<<<<<< HEAD
             { name: "Coding", id: "codingProfile" },
             { name: "Projects", id: "projects" },
             { name: "Experience", id: "experience" },
+=======
+            { name: "Experience", id: "experience" },
+            { name: "Projects", id: "projects" },
+            { name: "Education", id: "education" },
+>>>>>>> b3ca89b70ea9fb78d76746331ddc3d90dd5f3173
           ].map((item, index) => (
             <button
               key={index}
