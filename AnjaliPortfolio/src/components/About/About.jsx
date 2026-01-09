@@ -9,11 +9,7 @@ const About = () => {
   return (
     <section
       id="about"
-<<<<<<< HEAD
       className="py-2 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans"
-=======
-      className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
->>>>>>> b3ca89b70ea9fb78d76746331ddc3d90dd5f3173
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
@@ -64,11 +60,7 @@ const About = () => {
               // boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
             }}
           >
-<<<<<<< HEAD
             <FaDownload className="hover:animate-bounce" />
-=======
-            <FaDownload className="group-hover:animate-bounce" />
->>>>>>> b3ca89b70ea9fb78d76746331ddc3d90dd5f3173
             DOWNLOAD CV
           </a>
           
