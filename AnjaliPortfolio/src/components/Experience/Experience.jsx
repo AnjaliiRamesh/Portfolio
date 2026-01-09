@@ -397,7 +397,7 @@ const Experience = () => {
       image: "AWS.png",
       issued_by: "Forage",
       date: "Jan 2024",
-      logo: "iitb.png",
+      logo: "awslogo.png",
       desc:
         "Designed a simple, scalable AWS hosting architecture using Elastic Beanstalk to resolve performance issues and support rapid business growth. Explained the architecture and cost model in plain, non-technical language, ensuring the client clearly understood system behavior and month-to-month cost variations.",
 
