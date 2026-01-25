@@ -24,13 +24,13 @@ const projects = [
   },
   {
     id: 2,
-    name: "TruckByte",
-    image: "/truckbyte.png",
+    name: "Randomly",
+    image: "/video-chat.png",
     description:
-      "A trucking management system to assign, track, and manage trucks with role-based access.",
+      "A video chat application built with Typescript and Node.js, featuring real-time communication and user authentication.",
     skills: [FaReact, FaNodeJs, FaDatabase, FaCss3Alt],
-    link: "https://github.com/preetcoder12/Load_Mate",
-    live: "https://truckbyte.vercel.app",
+    link: "https://github.com/AnjaliiRamesh/Video-chat",
+    live: "https://randomly-neon.vercel.app/",
   },
   {
     id: 3,

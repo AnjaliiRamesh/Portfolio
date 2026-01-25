@@ -21,7 +21,7 @@ import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
 // import pythonLogo from './assets/tech_logo/python.png';
-// import typescriptLogo from './assets/tech_logo/typescript.png';
+import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
@@ -84,7 +84,7 @@ export const SkillsInfo = [
       { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'JavaScript', logo: javascriptLogo },
-      // { name: 'TypeScript', logo: typescriptLogo },
+      { name: 'TypeScript', logo: typescriptLogo },
     ],
   },
   {
@@ -95,6 +95,7 @@ export const SkillsInfo = [
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'VS Code', logo: vscodeLogo },
+      { name: 'Render', logo: renderLogo },
      
     ],
   },
@@ -118,6 +119,7 @@ export const SkillsInfo = [
         "Tailwind CSS",
         "MongoDb",
         "Next Js",
+        "Typescript"
       ],
     },
     {
