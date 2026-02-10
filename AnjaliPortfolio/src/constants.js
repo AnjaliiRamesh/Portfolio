@@ -30,6 +30,8 @@ import postmanLogo from './assets/tech_logo/postman.png';
 // import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
+import render from './assets/tech_logo/render.png'
+
 // import postgreLogo from './assets/tech_logo/postgre.png';
 // import csharpLogo from './assets/tech_logo/csharp.png';
 
@@ -95,7 +97,7 @@ export const SkillsInfo = [
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Render', logo: renderLogo },
+      { name: 'Render', logo: render},
      
     ],
   },
